@@ -1,11 +1,266 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Denis Novik</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header
+      class="relative top-0 left-0 w-full flex items-center justify-center bg-white shadow-md z-50"
+    >
+      <nav>
+        <ul class="flex gap-10">
+          <li>
+            <a
+              href="index.html"
+              class="block py-7 hover:text-gray-500 transition font-['Open_Sans'] font-normal text-[18px] text-[#070707]"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#aboutMe"
+              class="block py-7 hover:text-gray-500 transition font-['Open_Sans'] font-normal text-[18px] text-[#070707]"
+              >About me</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skills"
+              class="block py-7 hover:text-gray-500 transition font-['Open_Sans'] font-normal text-[18px] text-[#070707]"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio"
+              class="block py-7 hover:text-gray-500 transition font-['Open_Sans'] font-normal text-[18px] text-[#070707]"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contacts"
+              class="block py-7 hover:text-gray-500 transition font-['Open_Sans'] font-normal text-[18px] text-[#070707]"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="max-w-[1440px] mx-auto pt-3 flex flex-col" id="home">
+      <h1
+        class="font-['Open_Sans'] font-bold text-[48px] text-[#070707] pt-3 pb-12"
+      >
+        Denis Novik
+      </h1>
+      <img
+        src="./images/1.jpg "
+        alt="Denis Novik"
+        width="970"
+        height="387"
+        class="w-full object-cover"
+      />
+    </section>
+
+    <section class="max-w-[1440px] mx-auto flex flex-col" id="aboutMe">
+      <h2
+        class="font-['Open_Sans'] font-bold text-[48px] text-[#070707] pt-[100px] pb-[50px] mx-auto"
+      >
+        About me
+      </h2>
+      <ul class="flex flex-col gap-6 max-w-[480px] mx-auto pb-[100px]">
+        <li
+          class="font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707]"
+        >
+          Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+          and everything connected with it. .
+        </li>
+        <li
+          class="font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707]"
+        >
+          Hi, I'm studying at courses "Web and mobile design interfaces" in
+          IT-Academy.
+        </li>
+        <li
+          class="font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707]"
+        >
+          Hi, Ready to implement excellent projects with wonderful people.
+        </li>
+      </ul>
+    </section>
+
+    <section section class="max-w-[1440px] mx-auto flex flex-col" id="skills">
+      <h2
+        class="font-['Open_Sans'] font-bold text-[48px] text-[#070707] pt-[100px] pb-[20px] mx-auto"
+      >
+        Skills
+      </h2>
+      <p
+        class="font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707] pb-[50px]"
+      >
+        I work in such programs as
+      </p>
+      <ul class="flex  gap-[97px] mx-auto pb-[100px]">
+        <li>
+          <svg width="80" height="80" class="  mx-auto">
+            <use href="./images/sprite.svg#icon-Ps"></use>
+          </svg>
+          <p   class="max-w-[90px] font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707] pt-[25px]  pb-[60px] mx-auto">Adobe Photoshop</p>
+          <ul class="flex  gap-[10px] mx-auto">
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg>
+            </li>
+             <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg>
+            </li>
+          </ul>
+        </li>
+       <li>
+          <svg width="80" height="80" class="  mx-auto">
+            <use href="./images/sprite.svg#icon-Ai"></use>
+          </svg>
+          <p   class="max-w-[90px] font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707] pt-[26px]  pb-[60px] mx-auto">Adobe Illustrator</p>
+          <ul class="flex  gap-[10px] mx-auto">
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg>
+            </li>
+             <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <svg width="80" height="80" class="  mx-auto">
+            <use href="./images/sprite.svg#icon-Ae"></use>
+          </svg>
+          <p   class="max-w-[110px]  font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707] pt-[25px]  pb-[60px] mx-auto">Adobe <br> After Effects</p>
+          <ul class="flex  gap-[10px] mx-auto">
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+             <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <svg width="80" height="80" class="  mx-auto">
+            <use href="./images/sprite.svg#icon-Figma"></use>
+          </svg>
+          <p   class="max-w-90px] font-['Open_Sans'] font-normal text-[18px] text-center text-[#070707] pt-[25px]  pb-[88px] mx-auto">Figma</p>
+          <ul class="flex  gap-[10px] mx-auto">
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+             <li>
+              <svg width="26" height="26">
+                <use href="./images/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+<section section class="max-w-[1440px] mx-auto flex flex-col" id="portfolio">
+    <h2 class="font-['Open_Sans'] font-bold text-[48px] text-[#070707] pt-[100px] pb-[50px] mx-auto"> Portfolio</h2>
+</section>
+
+
+
+  </body>
 </html>
