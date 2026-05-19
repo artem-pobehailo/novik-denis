@@ -53,5 +53,9 @@
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.3902" d="M17.634 9.402h7.317v1.829h-7.317v-1.829z"></path>
 </symbol>
 
+<symbol id="icon-vec" viewBox="0 0 38 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="9.6" d="M3.394 12.701l11.2 11.2 17.6-20.8"></path>
+</symbol>
+
 </defs>
 </svg>
